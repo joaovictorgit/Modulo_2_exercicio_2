@@ -32,7 +32,7 @@ const Form = () =>{
 
     return(
         <div className="forms">
-                <h1>Pesquisar altores</h1>
+                <h1>Pesquisar autores</h1>
                 <input type="text" onChange={handleChange} className="camp_text"></input>
                 <button type="button" className="buttonSend" onClick={enviar}><BsSearch/></button>
                 
